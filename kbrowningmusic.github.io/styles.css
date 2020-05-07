@@ -1,4 +1,3 @@
-/*below does not work for some reason... could it be the position of the image in relation to the other elements?*/
 
 h1{
     font-size: large;
@@ -24,16 +23,22 @@ p, br {
     font-style: italic;
 }
 
+a {
+    text-decoration:none;
+    color: rgb(83, 31, 39);
+}
+
 footer {
     color: grey;}
 
 .KatandBassClarinet{
-        position: fixed;
-        background-image: "KatandBassClarinet.JPG";
-        z-index: -1;
-        background-repeat:no-repeat;
-        /*in case  image does not show*/
-        background-color: rgb(26, 45, 66);
+        
+    background-color: rgb(26, 45, 66);
+    /*in case  image does not show*/
+    background-image: "KatandBassClarinet.JPG";
+    position: fixed;
+    z-index: -1;
+    background-repeat:no-repeat;
 }
 
 .katmuss{
@@ -47,15 +52,14 @@ footer {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', verdana, sans-serif;
     font-weight: 500;
     font-size: 36px;
-}
-
-
-
-/*.navBarHome{
     
 }
-*/
-#navBarBiography, #navBarBlog, #navBarContact, #navBarVO, #navBarAwards, #userGuide, #userGuide, .Button {
+
+@media{
+
+}
+
+#navBarBiography, #navBarBlog, #navBarContact, #navBarVO, #navBarAwards, #userGuide, #userGuide, .navBarSocialMedia, .Button {
     display:flexbox;
     justify-content:space-between;
     background-color: rgb(100, 82, 100);

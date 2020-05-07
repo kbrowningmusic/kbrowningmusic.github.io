@@ -55,9 +55,10 @@ footer {
     
 }
 */
-#navBarContact, #navBarAwards, #navBarBlog, #userGuide, #navBarBiography, #userGuide, .Button{
-    display:flex;
-    justify-content:sacearound;background-color: rgb(100, 82, 100);
+#navBarBiography, #navBarBlog, #navBarContact, #navBarVO, #navBarAwards, #userGuide, #userGuide, .Button {
+    display:flexbox;
+    justify-content:space-between;
+    background-color: rgb(100, 82, 100);
     color: rgb(20, 39, 31);
     font-size: large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -85,9 +86,6 @@ footer {
     .dropdown:hover .dropdown-content {display: block;}
 
     /* Change the background color of the dropdown button when the dropdown content is shown */
-{
-
-}
 
 
 .navBar{

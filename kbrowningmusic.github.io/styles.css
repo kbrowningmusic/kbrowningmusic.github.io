@@ -1,0 +1,146 @@
+/*below does not work for some reason... could it be the position of the image in relation to the other elements?*/
+
+h1{
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+h2{
+    color:teal;
+    position:center;
+}
+
+body{
+    background-color: rgb(26, 45, 66);
+}
+
+p, br {
+    margin: 10px;
+    padding: 2em;
+    font-family: Verdana, Geneva, Tahoma, serif;
+    font-weight: 550;
+    font-size: medium;
+    color: rgb(1, 141, 141);
+    font-style: italic;
+}
+
+footer {
+    color: grey;
+    position:bottom;
+    font-size-adjust: unset;
+}
+
+.KatandBassClarinet{
+        height:unset;
+        position: absolute;
+        background-image: "KatandBassClarinet.JPG";
+        z-index: -1;
+        background-repeat:no-repeat;
+        background-color: rgb(26, 45, 66);
+}
+
+.katmuss{
+    /*position: center;
+    widows: 100%;
+    display:flex;
+    justify-content: space-around;
+    */
+    background-color:teal;
+    color:rgb(83, 31, 39);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', verdana, sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+}
+
+.navBar{
+    width:full;
+    display:flex;
+    justify-content: space-evenly;
+    background-color:rgb(100, 82, 100);
+
+}
+
+/*.navBarHome{
+    
+}
+*/
+.navBarBlog{
+    
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:600;
+    padding: 20px;
+    border: none;
+}
+
+.navBarBiography{
+    color: rgb(20, 39, 31);
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:600;
+    padding: 20px;
+    border: none;
+}
+
+
+
+.Button{
+    background-color: rgb(100, 82, 100);
+    color: rgb(20, 39, 31);
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:600;
+    padding: 20px;
+    border: none;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  /*below: originally "dropbtn" on W3schools tutorial*/
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:rgb(199, 138, 199);
+    min-width: 160px;
+    z-index: 1;
+  }
+     /* Change color of dropdown links on hover */
+    .dropdown-content a:hover {background-color: #ddd;}
+
+    /* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content {display: block;}
+
+    /* Change the background color of the dropdown button when the dropdown content is shown */
+
+.navBarVO{
+    color: rgb(20, 39, 31);
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:600;
+    padding: 20px;
+    border: none;
+
+}
+/*
+.navBarContact{
+
+}
+
+.navBarAwards{
+
+}*/
+
+.Biography{
+   margin:15%;
+   padding:10%;
+   background-color: rgb(26, 45, 66);
+   color:teal;
+}
+
+.userGuide{
+    margin:5%;
+    padding:5%;
+    font-size: large;
+}

@@ -25,17 +25,14 @@ p, br {
 }
 
 footer {
-    color: grey;
-    position:bottom;
-    font-size-adjust: unset;
-}
+    color: grey;}
 
 .KatandBassClarinet{
-        height:unset;
-        position: absolute;
+        position: fixed;
         background-image: "KatandBassClarinet.JPG";
         z-index: -1;
         background-repeat:no-repeat;
+        /*in case image doesn't load*/
         background-color: rgb(26, 45, 66);
 }
 
@@ -53,7 +50,6 @@ footer {
 }
 
 .navBar{
-    width:full;
     display:flex;
     justify-content: space-evenly;
     background-color:rgb(100, 82, 100);

@@ -32,7 +32,7 @@ footer {
         background-image: "KatandBassClarinet.JPG";
         z-index: -1;
         background-repeat:no-repeat;
-        /*in case image doesn't load*/
+        /*in case  image does not show*/
         background-color: rgb(26, 45, 66);
 }
 
@@ -49,39 +49,15 @@ footer {
     font-size: 36px;
 }
 
-.navBar{
-    display:flex;
-    justify-content: space-evenly;
-    background-color:rgb(100, 82, 100);
 
-}
 
 /*.navBarHome{
     
 }
 */
-.navBarBlog{
-    
-    font-size: large;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight:600;
-    padding: 20px;
-    border: none;
-}
-
-.navBarBiography{
-    color: rgb(20, 39, 31);
-    font-size: large;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight:600;
-    padding: 20px;
-    border: none;
-}
-
-
-
-.Button{
-    background-color: rgb(100, 82, 100);
+#navBarContact, #navBarAwards, #navBarBlog, #userGuide, #navBarBiography, #userGuide, .Button{
+    display:flex;
+    justify-content:sacearound;background-color: rgb(100, 82, 100);
     color: rgb(20, 39, 31);
     font-size: large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -109,34 +85,14 @@ footer {
     .dropdown:hover .dropdown-content {display: block;}
 
     /* Change the background color of the dropdown button when the dropdown content is shown */
-
-.navBarVO{
-    color: rgb(20, 39, 31);
-    font-size: large;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight:600;
-    padding: 20px;
-    border: none;
-
-}
-/*
-.navBarContact{
+{
 
 }
 
-.navBarAwards{
 
-}*/
+.navBar{
+    display:flex;
+    justify-content: space-between;
+    background-color:rgb(100, 82, 100);
 
-.Biography{
-   margin:15%;
-   padding:10%;
-   background-color: rgb(26, 45, 66);
-   color:teal;
-}
-
-.userGuide{
-    margin:5%;
-    padding:5%;
-    font-size: large;
 }

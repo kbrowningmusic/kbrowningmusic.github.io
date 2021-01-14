@@ -1,1 +1,3 @@
 # kbrowningmusic.github.io
+# These were my first attempts at building my website...
+#(NB - I decided to katmuss.com separately first using WP, just so I didn't 'break' my professional site!)
